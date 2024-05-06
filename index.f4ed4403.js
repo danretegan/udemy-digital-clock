@@ -1,0 +1,2 @@
+var clock=document.querySelector(".clock"),tick=function(){var n=new Date,t=dateFns.format(n,"eeee, do MMMM yyyy"),a=String(n.getHours()).padStart(2,"0"),e=String(n.getMinutes()).padStart(2,"0"),c=String(n.getSeconds()).padStart(2,"0"),o="\n    <p>".concat(t,"</p>\n    <div>\n      <span>").concat(a,"</span> :\n      <span>").concat(e,"</span> :\n      <span>").concat(c,'</span>\n    </div>\n    <footer class="footer" >').concat("© Dan Retegan","</footer>\n  ");clock.innerHTML=o};setInterval(tick,1e3);
+//# sourceMappingURL=index.f4ed4403.js.map

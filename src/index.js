@@ -15,6 +15,7 @@ const tick = () => {
       <span>${m}</span> :
       <span>${s}</span>
     </div>
+    <footer class="footer" >© Dan Retegan</footer>
   `;
 
   clock.innerHTML = html;
